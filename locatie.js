@@ -13,7 +13,7 @@ function on_success(position) {
   var img_url =
     "https://maps.googleapis.com/maps/api/staticmap?center=" +
     latlon +
-    "&zoom=14&size=400x300&key=YOUR_KEY";
+    "&zoom=14&size=400x300&key=AIzaSyCA4r1olNwzXcATJCIKq9Vhk0-tKFOoLgA";
 
   document.getElementById("map").innerHTML = "<img src='" + img_url + "'>";
 }
